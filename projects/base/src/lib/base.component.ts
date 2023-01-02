@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-base',
-  template: `
+	selector: 'lib-base',
+	template: `
     <p>
       base works!
     </p>
   `,
-  styles: [
-  ]
+	styles: [
+	]
 })
 export class BaseComponent {
 
