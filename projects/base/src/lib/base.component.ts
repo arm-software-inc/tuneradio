@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-	selector: 'lib-base',
+	selector: 'base-root',
 	template: `
     <p>
       base works!

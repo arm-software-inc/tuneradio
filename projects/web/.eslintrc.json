@@ -1,0 +1,19 @@
+{
+	"root": false,
+	"overrides": [
+		{
+			"files": ["*.ts"],
+			"extends": ["./../../.eslintrc.json"],
+			"rules": {
+				"@angular-eslint/directive-selector": [
+					"error",
+					{ "type": "attribute", "prefix": "web", "style": "camelCase" }
+				],
+				"@angular-eslint/component-selector": [
+					"error",
+					{ "type": "element", "prefix": "web", "style": "kebab-case" }
+				]
+			}
+		}
+	]
+}
