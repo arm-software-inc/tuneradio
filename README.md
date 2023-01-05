@@ -1,6 +1,6 @@
 # Tuneradio
 
-# Projects
+# :blue_book: Projects
 ## Web
 `$ npm run web`
 
@@ -10,7 +10,7 @@ Using layout [Ionic-Angular](https://ionicframework.com/docs/angular/overview)
 `$ npm run mobile`
 
 ## Base
-This project will have base components that will be used in both projects (web and mobiel), like:
+This project will have base components that will be used in both projects (web and mobile), like:
 
 - header
 - footer
@@ -18,7 +18,7 @@ This project will have base components that will be used in both projects (web a
 
 Also default services and interfaces/types.
 
-# Development
+# :zap: Development
 To use the lib `base` you need to build the lib using the command `$ ng build base`,
 or you can use the commands below:
 
@@ -29,7 +29,7 @@ $ npm run base:watch
 with
 
 ```bash
-$ npm run web
+$ npm run web # or npm run mobile
 ```
 
 ## Base Project
@@ -40,6 +40,6 @@ example:
 export * from './lib/custom-module/custom-module.module';
 ```
 
-# Contributing
+# :coffee: Contributing
 ## Commit conventions
 following [Angular Conventions](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)
