@@ -7,12 +7,12 @@ button {
 }
 
 .play {
-  border-right: 10px solid black;
-  border-left: 10px solid black;
+  border-right: 6px solid black;
+  border-left: 6px solid black;
 }
 
 .pause {
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 20px solid black;
+  border-left: 15px solid black;
 }

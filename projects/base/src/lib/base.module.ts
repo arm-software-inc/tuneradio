@@ -1,15 +1,14 @@
 import { NgModule } from '@angular/core';
-import { BaseComponent } from './base.component';
-import { PlayerModule } from './player/player.module';
+import { PlayerModule } from './components/player/player.module';
 
+/**
+* Needed to export components and directives
+*/
 @NgModule({
-	declarations: [
-		BaseComponent
-	],
+	declarations: [],
 	exports: [
-		BaseComponent,
 		PlayerModule
 	]
 })
 
-export class BaseModule { }
+export class BaseModule {}

@@ -31,3 +31,11 @@ with
 ```bash
 $ npm run web
 ```
+
+## Base Project
+every module or component you create should be exported in the `public-api.ts` if you want to use it outside the project.
+
+example:
+```ts
+export * from './lib/custom-module/custom-module.module';
+```
