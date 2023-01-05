@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "web": "ng serve web",
-    "mobile": "ng serve mobile",
+    "web": "ng build base && ng serve web",
+    "mobile": "ng build base && ng serve mobile",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
