@@ -39,3 +39,7 @@ example:
 ```ts
 export * from './lib/custom-module/custom-module.module';
 ```
+
+# Contributing
+## Commit conventions
+following [Angular Conventions](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)
