@@ -2,14 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { BaseModule } from 'base';
+// eslint-disable-next-line quotes
+import { PlayerModule } from '../../../../../base/src/lib/components/player/player.module';
 
 @NgModule({
-	declarations: [ HomeComponent ],
-	imports: [
-		CommonModule,
-		BaseModule
-	],
-	exports: [ HomeComponent ]
+	declarations: [HomeComponent],
+	exports: [HomeComponent],
+	imports: [CommonModule, BaseModule, PlayerModule],
 })
-
-export class HomeModule { }
+export class HomeModule {}
